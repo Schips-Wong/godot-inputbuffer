@@ -1,6 +1,13 @@
-@icon("res://addons/buff_er/buffer_icon.svg")
+@icon("res://addons/input_buff_er/buffer_icon.svg")
+
+## Input Buffer System
+##
+## For managing a single input action with buffering
+## This classes provide pre-buffering and post-buffering capabilities to create smooth gameplay experiences.
+
+# Single action input buffer
 extends RefCounted
-class_name Buffer
+class_name InputBuffer
 
 
 ## Generic purpose buffer for input buffering, coyote jump, etc.

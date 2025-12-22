@@ -1,4 +1,4 @@
-# BUFFer: Generic purpose buffer for Godot 4.3
+# Input-buff-er: Generic purpose input buffer for Godot 4.3
 
 This plugin adds the **Buffer** class for managing the execution of one player action.
 
@@ -6,7 +6,7 @@ It can both buffer one player input for a set amount of time to run the action w
 
 ## Example use
 ```gdscript
-var _fire_buffer = Buffer.new(0.2)
+var _fire_buffer = InputBuffer.new(0.2)
 
 func _process(delta):
 	_fire_buffer.update(
